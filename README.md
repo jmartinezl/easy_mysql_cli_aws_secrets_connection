@@ -4,7 +4,7 @@ An easy bash script to connect to mysql using a aws secrets manager; it work for
 
 In order to get this script working please verify the next:
 
-##prerequisites:
+## prerequisites:
 
 * The EC2 instance has a role with the SecretsManagerReadWrite managed policy (you can attach your custom policy it only need to have the getSecretValue permission)
 * Install mysql cli
